@@ -17,22 +17,22 @@ def desenha_forca(erros)
 		pernas = "/ \\"
 	end
 
-	puts "  _______       \n"
-	puts " |/      |      \n"
-	puts " |      #{cabeca}  \n"
-	puts " |      #{bracos}  \n"
-	puts " |       #{corpo}     \n"
-	puts " |      #{pernas}   \n"
-	puts " |              \n"
-	puts "_|___           \n"
-	puts "\n\n"
+	puts "  _______       "
+	puts " |/      |      "
+	puts " |      #{cabeca}  "
+	puts " |      #{bracos}  "
+	puts " |       #{corpo}     "
+	puts " |      #{pernas}   "
+	puts " |              "
+	puts "_|___           "
+	puts 
  
 end
 
 def da_boas_vindas
-	puts "/****************/\n"
-	puts "/ Jogo de Forca */\n"
-	puts "/****************/\n\n"
+	puts "/****************/"
+	puts "/ Jogo de Forca */"
+	puts "/****************/"
 	puts "Qual é o seu nome?"
 	nome = gets.strip
 	puts "\n\n\n\n\n\n"
@@ -82,18 +82,20 @@ def avisa_letra_encontrada(total_encontrado)
 end
 
 def avisa_acertou_palavra
-		puts "\nParabéns, você ganhou!\n\n"
+		puts "\nParabéns, você ganhou!"
+		puts
  
-		puts "       ___________      \n"
-		puts "      '._==_==_=_.'     \n"
-		puts "      .-\\:      /-.    \n"
-		puts "     | (|:.     |) |    \n"
-		puts "      '-|:.     |-'     \n"
-		puts "        \\::.    /      \n"
-		puts "         '::. .'        \n"
-		puts "           ) (          \n"
-		puts "         _.' '._        \n"
-		puts "        '-------'       \n\n"
+		puts "       ___________      "
+		puts "      '._==_==_=_.'     "
+		puts "      .-\\:      /-.    "
+		puts "     | (|:.     |) |    "
+		puts "      '-|:.     |-'     "
+		puts "        \\::.    /      "
+		puts "         '::. .'        "
+		puts "           ) (          "
+		puts "         _.' '._        "
+		puts "        '-------'       "
+		puts
 end
 def avisa_errou_palavra
 	puts "Que pena... errou!"
